@@ -6,8 +6,9 @@ shit included that I don't need, or that I'm not smart enough to understand that
 I need. I'll probably have another iteration with some niceties, but here's the
 barest of bones in my opinion.
 
-`make run` will spin up a webpack-dev-server with hot module replacement. If you
-don't see "Hello World!" at `localhost:9898`, ya done fucked up.
+`make run` will spin up a webpack-dev-server with hot module replacement. You'll
+see "Hello, World!" at `localhost:9898`. An input to change that text implements
+a very small reducer.
 
 ### Setup
 1. `npm install`
