@@ -1,12 +1,17 @@
 {
-  "name": "minimal react webpack setup",
+  "name": "minimal-react-webpack-setup",
   "version": "1.0.0",
   "description": "for very small react/webpack/babel setups",
+  "repository": "https://github.com/JonathanTR/minimal-react-webpack-babel",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2"
+  },
   "devDependencies": {
     "babel-core": "^6.3.21",
     "babel-loader": "^6.2.0",

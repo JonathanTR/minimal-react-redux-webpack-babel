@@ -1,18 +1,21 @@
-import React, {Component} from 'react';
-import ReactDOM           from 'react-dom';
+import React, {Component}     from 'react';
+import ReactDOM               from 'react-dom';
+import {Provider}             from 'react-redux';
 
-import HelloWorld         from './components/helloWorld/index'
+import store                  from './store'
+import HelloWorld             from './components/helloWorld'
 
 class Main extends Component {
+
   render () {
     return(
-      <div>
-        <HelloWorld />
-      </div>
+      <Provider store={store}>
+        <div>
+          <HelloWorld />
+        </div>
+      </Provider>
     )
   }
 }
 
-export default function initializeApp() {
-  ReactDOM.render(<Main />, document.getElementById('mainRoot'));
-}
+ReactDOM.render(<Main />, document.getElementById('mainRoot'));
