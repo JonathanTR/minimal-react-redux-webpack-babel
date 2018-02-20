@@ -1,3 +1,6 @@
+## UPDATE:
+For the love, go use facebook's [create-react-app](https://github.com/facebook/create-react-app). It's delightfully well-polished. 
+
 ### Why?
 I keep finding myself in this predicament: I want to spin up a small side project
 over the weekend. I want to use react + redux, I want to use ES6 syntax, and I want
